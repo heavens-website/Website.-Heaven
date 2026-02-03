@@ -4,42 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog | Heaven’s Jewellery</title>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ✅ FIXED: GitHub Pages is case-sensitive -->
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 
 <body>
   
   <header class="site-header">
     <div class="container header-inner">
-    <!-- LEFT: LOGO ICON -->
-    <a class="logo" href="index.html" aria-label="Heaven’s Home">
-    <img src="web images/images/logo.png" alt="Heaven’s logo" />
-    </a>
-    <!-- CENTER: BRAND + NAV -->
-    <div class="brand">
-    <div class="brand-wordmark">HEAVEN’S</div>
-    <nav class="nav" aria-label="Main navigation">
-    <a class="nav-btn" href="index.html">Home</a>
-    <a class="nav-btn" href="shop.html">Shop</a>
-    <a class="nav-btn" href="collection.html">Collections</a>
-    <a class="nav-btn" href="about.html">About</a>
-    <a class="nav-btn is-active" href="blog.html">Blog</a>
-    </nav>
+      <!-- LEFT: LOGO ICON -->
+      <a class="logo" href="index.html" aria-label="Heaven’s Home">
+        <img src="web images/images/logo.png" alt="Heaven’s logo" />
+      </a>
+
+      <!-- CENTER: BRAND + NAV -->
+      <div class="brand">
+        <div class="brand-wordmark">HEAVEN’S</div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a class="nav-btn" href="index.html">Home</a>
+          <a class="nav-btn" href="shop.html">Shop</a>
+          <a class="nav-btn" href="collection.html">Collections</a>
+          <a class="nav-btn" href="about.html">About</a>
+          <a class="nav-btn is-active" href="blog.html">Blog</a>
+        </nav>
+      </div>
+
+      <!-- RIGHT: ICONS -->
+      <div class="header-actions">
+        <a class="icon-btn" href="#" aria-label="Search"><span class="icon">⌕</span></a>
+        <a class="icon-btn" href="#" aria-label="Account"><span class="icon">👤</span></a>
+        <a class="icon-btn" href="#" aria-label="Cart"><span class="icon">🛒</span></a>
+      </div>
     </div>
-    <!-- RIGHT: ICONS -->
-    <div class="header-actions">
-    <a class="icon-btn" href="#" aria-label="Search">
-    <span class="icon">⌕</span>
-    </a>
-    <a class="icon-btn" href="#" aria-label="Account">
-    <span class="icon">👤</span>
-    </a>
-    <a class="icon-btn" href="#" aria-label="Cart">
-    <span class="icon">🛒</span>
-    </a>
-    </div>
-    </div>
-    </header>    
+  </header>    
 
   <main>
 
@@ -75,7 +74,6 @@
       <div class="container">
         <div class="featured-post">
           <div class="featured-media">
-            <!-- You can change this image later if you want -->
             <img src="web images/images/hero.png" alt="Featured story image" />
           </div>
 
@@ -205,7 +203,6 @@
 
         </div>
 
-        <!-- Pagination (visual only) -->
         <div class="pagination">
           <button class="pill" type="button" disabled>← Prev</button>
           <button class="pill is-active" type="button">1</button>
@@ -216,7 +213,6 @@
       </div>
     </section>
 
-    <!-- NEWSLETTER -->
     <section class="newsletter">
       <div class="container newsletter-inner">
         <div>
@@ -233,7 +229,6 @@
 
   </main>
 
-  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
@@ -245,8 +240,8 @@
 
       <div>
         <h4>Help</h4>
-        <a href="#">Shipping</a>
-        <a href="#">Returns</a>
+        <a href="#info">Shipping</a>
+        <a href="#info">Returns</a>
         <a href="#">Contact</a>
       </div>
 
@@ -273,6 +268,3 @@
 
 </body>
 </html>
-
-
-
