@@ -1490,6 +1490,53 @@ a{ color:inherit; text-decoration:none; }
   text-decoration: none;
   line-height: 1;
 }
+/* ---------- MOBILE RESPONSIVE ---------- */
+@media (max-width: 768px){
+
+  /* Make header areas stack nicely */
+  .header-inner{
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  /* Nav wraps into multiple lines instead of overflowing */
+  .nav{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    order: 3; /* puts nav under brand/logo */
+  }
+
+  /* Buttons smaller so they fit */
+  .nav-btn{
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  /* Keep icons to the right */
+  .header-actions{
+    margin-left: auto;
+    order: 2;
+  }
+
+  .icon-btn{
+    width: 38px;
+    height: 38px;
+  }
+
+  /* Make sections less wide on small screens */
+  .container{
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  /* Product/grid style (if you have cards) */
+  .grid, .products, .cards{
+    grid-template-columns: 1fr;
+  }
+}
 
 
 
