@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | Heaven’s</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+    <!-- LEFT: LOGO ICON -->
+    <a class="logo" href="index.html" aria-label="Heaven’s Home">
+    <img src="web images/images/logo.png" alt="Heaven’s logo" />
+    </a>
+    <!-- CENTER: BRAND + NAV -->
+    <div class="brand">
+    <div class="brand-wordmark">HEAVEN’S</div>
+    <nav class="nav" aria-label="Main navigation">
+    <a class="nav-btn" href="index.html">Home</a>
+    <a class="nav-btn" href="shop.html">Shop</a>
+    <a class="nav-btn" href="collection.html">Collections</a>
+    <a class="nav-btn is-active" href="about.html">About</a>
+    <a class="nav-btn" href="blog.html">Blog</a>
+    </nav>
+    </div>
+    <!-- RIGHT: ICONS -->
+    <div class="header-actions">
+    <a class="icon-btn" href="#" aria-label="Search">
+    <span class="icon">⌕</span>
+    </a>
+    <a class="icon-btn" href="#" aria-label="Account">
+    <span class="icon">👤</span>
+    </a>
+    <a class="icon-btn" href="#" aria-label="Cart">
+    <span class="icon">🛒</span>
+    </a>
+    </div>
+    </div>
+    </header>
+     
+ 
+
+<!-- ABOUT SECTION -->
+<section class="about-section">
+  <div class="container about-grid">
+
+    <!-- IMAGE -->
+    <div class="about-image">
+      <img src="web images/images/about.png" alt="About Heaven’s Jewellery">
+    </div>
+
+    <!-- TEXT -->
+    <div class="about-text">
+      <h1>About Heaven’s</h1>
+      <p>
+        Heaven’s is a contemporary jewellery brand inspired by elegance,
+        craftsmanship, and timeless beauty. Each piece is thoughtfully
+        designed to celebrate individuality and confidence.
+      </p>
+
+      <p>
+        Our collections blend modern design with classic details,
+        creating jewellery that feels personal, refined, and enduring.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+  <div class="container contact-grid">
+
+    <!-- CONTACT INFO -->
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out.</p>
+
+      <p><strong>Email:</strong> support@heavens.com</p>
+      <p><strong>Phone:</strong> +44 0000 000000</p>
+      <p><strong>Location:</strong> London, United Kingdom</p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <form class="contact-form" onsubmit="return submitForm(event)">
+      <h2>Send a Message</h2>
+
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+      <p class="form-note">This is a demo form.</p>
+    </form>
+
+  </div>
+</section>
+
+<script>
+  function submitForm(e){
+    e.preventDefault();
+    alert("Message sent successfully (demo)");
+    e.target.reset();
+    return false;
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
