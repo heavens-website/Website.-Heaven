@@ -1537,6 +1537,30 @@ a{ color:inherit; text-decoration:none; }
     grid-template-columns: 1fr;
   }
 }
+/* --- FIX: keep header icons on the RIGHT (all pages) --- */
+.site-header .header-inner{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.site-header .brand{
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header .header-actions{
+  margin-left: auto;          /* ✅ pushes icons to the far right */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Optional: if your nav is centering, force left */
+.site-header .nav{
+  justify-content: flex-start;
+}
+
 
 
 
